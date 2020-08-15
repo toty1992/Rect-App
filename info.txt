@@ -1,0 +1,30 @@
+COMPONENTE DE REACT
+
+https://es.reactjs.org/docs/state-and-lifecycle.html
+
+que es?
+1 - Los componentes de react son funciones primera letra mayuscula y 
+con retorno, El compilador lo diferencia debido a la mayuscula
+
+function App(){ return ""}
+let App = function(){ return ""}
+let App = () => { return ""}
+clase App {
+
+    render(){
+        return ""
+    }
+}
+
+
+CICLOS DE VIDA
+MOUNT (se esta montando)
+constructor()
+
+
+RENDER (se muestra)
+render() se ejecuta cuando se dibuja por primera vez
+y cada vez que cambie el state o las props
+
+
+UNMOUNT (se desmonta)
