@@ -28,3 +28,14 @@ y cada vez que cambie el state o las props
 
 
 UNMOUNT (se desmonta)
+
+
+
+
+STATE Y PROPS
+ por defecto solo los componentes de tipo clase son los que pueden tener estado local
+ todos los componentes pueden recibir parametros (props) y se pasan en forma de jsx
+
+ componente({x:"Hola"})
+
+ <cpmponente x="Hola"/>
