@@ -4,7 +4,11 @@ const Header =({links})=>
         <header>
             <h1>React SPA</h1>
             <nav>
-            {links.map((link,i)=>{ return <a href={`/${link}`}>{link}</a> })}                
+            {links.map((link,i)=> 
+                <a key={i} href={`/${link}`}>
+                    {link}
+                </a> 
+             )}                
             </nav>
         </header>
     
